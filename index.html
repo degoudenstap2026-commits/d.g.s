@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>De Gouden Stap | Schoenen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+  <div class="nav container">
+    <a class="logo" href="#"><span>DG</span> De Gouden Stap</a>
+    <nav><a href="#producten">Producten</a><a href="#over-ons">Over ons</a><a href="#contact">Contact</a></nav>
+    <a class="contact-nav" href="#contact">Contact</a>
+  </div>
+</header>
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div><p class="eyebrow">DE GOUDEN STAP</p><h1>Voor elke stap de <em>juiste schoen.</em></h1>
+  <p class="hero-text">Ontdek onze collectie voetbalschoenen, sneakers, werkschoenen, kinderschoenen, slippers en meer.</p>
+  <a class="btn" href="#producten">Bekijk collectie</a></div>
+  <div class="hero-card"><div class="gold-circle">👟</div><h3>Onze collectie</h3><p>Ontdek onze schoenen voor sport, werk, kinderen en vrije tijd.</p></div>
+</div></section>
+<section id="producten" class="products-section container">
+  <div class="section-head"><div><p class="eyebrow">COLLECTIE</p><h2>Alle producten</h2></div>
+  <div class="controls"><input id="search" placeholder="Zoek een schoen..."><select id="category"><option value="all">Alle categorieën</option></select></div></div>
+  <div id="products" class="products"></div>
+</section>
+<section id="over-ons" class="about"><div class="container about-grid"><div><p class="eyebrow">OVER ONS</p><h2>De Gouden Stap</h2></div><p>Bij De Gouden Stap draait alles om schoenen die passen bij jouw stijl, activiteit en moment. Van het voetbalveld tot school, werk en vrije tijd: wij helpen je bij iedere stap.</p></div></section>
+<section id="contact" class="contact container"><h2>Contact</h2><p>Heb je een vraag over een product? Neem contact op met De Gouden Stap.</p><a class="btn" href="mailto:info@degoudenstap.nl">Stuur een e-mail</a></section>
+</main>
+<footer><div class="container">© 2026 De Gouden Stap · Alle rechten voorbehouden</div></footer>
+<div id="modal" class="modal hidden"><div class="modal-box"><button id="close" class="close">×</button><h2>Winkelmand</h2><div id="cartItems"></div><div class="total">Totaal <strong id="total">€0,00</strong></div><button id="checkout" class="btn full">Bestelling aanvragen</button></div></div>
+<script src="products.js"></script><script src="script.js"></script>
+</body></html>
